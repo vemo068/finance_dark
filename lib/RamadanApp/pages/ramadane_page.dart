@@ -77,8 +77,16 @@ class RamadanPage extends StatelessWidget {
                             ),
                           ],
                         ),
-                        SizedBox(
-                          height: MediaQuery.of(context).size.height * 0.2,
+                        const SizedBox(
+                          height: 40,
+                        ),
+                        Container(
+                          padding: const EdgeInsets.symmetric(vertical: 40),
+                          height: MediaQuery.of(context).size.height * 0.1,
+                          width: double.infinity,
+                          decoration: BoxDecoration(
+                              color: Colors.white.withOpacity(0.3 ),
+                              borderRadius: BorderRadius.circular(20)),
                         )
                       ],
                     ),
